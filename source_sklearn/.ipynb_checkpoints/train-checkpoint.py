@@ -41,12 +41,10 @@ if __name__ == '__main__':
     ## TODO: Add any additional arguments that you will need to pass into your model
     
     # Tried Random Forest
-    '''
     parser.add_argument('--n_estimators', type=int, default=3, metavar='N', 
                        help='number of decision trees to fit')
     parser.add_argument('--max_depth', type=int, default=4, metavar='N', 
                        help='max depth of the trees')
-                       '''
     
     # args holds all passed-in arguments
     args = parser.parse_args()
